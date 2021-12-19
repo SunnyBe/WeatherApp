@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="label_location">Location</string>
+    <string name="summary_example">Clear Skies</string>
+    <string name="location_name_example">Berlin, DE</string>
+    <string name="ok">Ok</string>
+</resources>
