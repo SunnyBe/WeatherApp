@@ -9,13 +9,3 @@ data class City(
     val sunrise: Long,
     val sunset: Long
 )
-
-/*
-"city": {
-    "id": 2950159,
-    "name": "Berlin",
-    "coord": {
-        "lat": 52.5244,
-        "lon": 13.4105
-    },
- */

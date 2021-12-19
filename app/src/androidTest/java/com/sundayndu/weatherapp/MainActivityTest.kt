@@ -50,7 +50,6 @@ class MainActivityTest {
     fun testActivityCreated() {
         val activityName = MainActivity::class.java.name
         println("GETNAME: $activityName")
-//        ActivityScenario.launch(MainActivity::class.java)
         Thread.sleep(2000)
         Intents.intended(hasComponent(activityName.toString()))
     }

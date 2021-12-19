@@ -7,7 +7,6 @@ import javax.inject.Inject
 
 class WeatherRepoImpl @Inject constructor(
     private val apiService: WeatherNetworkService
-//    private val cacheService: WeatherDatabase
 ): WeatherRepository {
 
     override suspend fun fetchWeather(location: String): ResultState<WeatherResponse> {
